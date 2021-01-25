@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && npx scully",
+    "build": "ng build --prod && npx scully",
     "ng-build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
